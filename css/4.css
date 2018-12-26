@@ -1,0 +1,98 @@
+.blogHeader {
+    padding: 120px 0 90px 0;
+    color: #fff;
+    margin: 0 0 60px 0;
+    background: center center;
+    background-size: cover;
+}
+.container{
+    margin-right:auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left:15px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.blogHeader .back {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 23px 30px;
+    display: inline-block;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+    margin: 0 0 80px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-clip: padding-box;
+}
+.btn-effect {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.blogHeader h1{
+    font-size: 6rem;
+    color: #fff;
+    margin: 0 0 45px 0;
+}
+.blogHeader .xi{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.blogContent .bloginfo{
+    box-shadow: 0 5px 0 #dedede;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-clip: padding-box;
+}
+.blogContent .bloginfo img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.blogContent .bloginfo .info{
+    padding: 20px;
+    font-size: 1.4rem;
+    line-height: 24px;
+    color: #36373c;
+}
+.green{
+    color:#31c6c2;
+}
+.blogContent .bloginfo .question{
+    font-weight: 700;
+    margin-top: 12px;
+    display: inline-block;
+}
+.blogContent .content{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 1.8rem;
+}
+.blogContent .content .intro{
+    font-weight: 700;
+    padding: 0 0 20px 0;
+    font-size: 2rem;
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #e6e6e6;
+    color: #36373c;
+}
+.rte p{
+    margin: 0 0 30px 0;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+@media (min-width: 768px){
+.col-sm-offset-1 {
+    margin-left: 8.33333333%;
+}
+.col-sm-10 {
+    width: 83.33333333%;
+}
+}
