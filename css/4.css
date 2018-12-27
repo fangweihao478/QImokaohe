@@ -83,6 +83,32 @@
 .rte p{
     margin: 0 0 30px 0;
 }
+.rte h2{
+    font-size: 2rem;
+    font-weight:700;
+}
+.rte ul{
+    margin: 0 0 35px 0;
+    color:#36373c;
+    padding: 0;
+}
+.rte ul li{
+    list-style-type: none;
+    margin: 0 0 0 50px;
+    position: relative;
+}
+.rte ul li::before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: block;
+    border: 1px solid #dbd9d9;
+    border-radius: 50%;
+    background-clip: padding-box;
+    position: absolute;
+    left: -30px;
+    top:10px;
+}
 @media (min-width: 1200px){
 .container {
     width: 1170px;
