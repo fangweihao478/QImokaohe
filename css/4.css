@@ -109,6 +109,40 @@
     left: -30px;
     top:10px;
 }
+/* mainform */
+.blogContent .mainform{
+    margin: 50px 0 90px 0;
+}
+.blogContent .mainform h2 {
+    margin: 0 0 40px 0;
+}
+.mainform.i{
+    margin-bottom: 20px;
+}
+.input{
+    position: relative;
+    z-index: 1;
+    vertical-align: top;
+    overflow: hidden;
+    height: 80px;
+    display: block;
+}
+.mainform .form-control{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #36373c;
+    box-shadow: 0 3px 0 #deddde;
+    border: 1px solid #deddde;
+    padding: 15px 32px 0 32px;
+    height: 76px;
+}
+.input-label{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    text-align: left;
+}
 @media (min-width: 1200px){
 .container {
     width: 1170px;
